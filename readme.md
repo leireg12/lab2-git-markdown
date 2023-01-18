@@ -57,6 +57,7 @@ tasks are comparable.  Here are the tasks:
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+     ```git add```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
