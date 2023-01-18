@@ -24,6 +24,10 @@ tasks are comparable.  Here are the tasks:
    Write the command you
    used underneath in a code block.
    
+   ```
+   git clone https://github.com/leireg12/lab2-git-markdown.git
+   ```
+   
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -37,30 +41,57 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
+   >On branch main
+   >Your branch is up to date with 'origin/main'.
+
+   >Untracked files:
+   >  (use "git add <file>..." to include in what will be committed)
+           books.md
+
+   >nothing added to commit but untracked files present (use "git add" to track)
+
    
    Explain, in plain text, what does it mean.
+   
+   It means that you added a new file that is still not commited to the main repository and that you can add it to be able to commit it later.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+     
+   ```
+   git add "books.md"
+   ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
    
+   Yes, when I checked status i said "new file" that still has to be commited.
+   
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
+  
+   ```
+   git commit -am "books file added"
+   ```
    
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   
+   ```
+   git status
+   ```
+   The message displayed says that the branch is ahead of the main one for 1 commit (the "book.md" file) so it was successfully commited.
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
-
+   
+   Yes, I can.
 
 ## Folders and relative path
 
