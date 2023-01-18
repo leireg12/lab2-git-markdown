@@ -105,7 +105,8 @@ This task is about adding images and using relative path.
    very new formats.  (You can just download or copy it there).
    
 3. check git status.  What do you see?
-      A message with the file images/ in red that has still not been added to commit.
+     
+   A message with the file images/ in red that has still not been added to commit.
 
 4. add image to the repo.  Show the command you are using in a code
    block.
@@ -139,5 +140,6 @@ This task is about adding images and using relative path.
 9. push
 
 10. check on github--does your books.md file now contain the image?
+   
    Yes it does.
 
