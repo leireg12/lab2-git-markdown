@@ -42,6 +42,8 @@ tasks are comparable.  Here are the tasks:
    
    Explain, in plain text, what does it mean.
    
+   This error means you attempted to run a Git command, but weren't inside a Git repository.
+   
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
