@@ -141,5 +141,5 @@ This task is about adding images and using relative path.
 
 10. check on github--does your books.md file now contain the image?
    
-   Yes it does.
+   Yes it does because I added it before commiting.
 
