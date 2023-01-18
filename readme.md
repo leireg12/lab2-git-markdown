@@ -53,7 +53,7 @@ tasks are comparable.  Here are the tasks:
    
    Explain, in plain text, what does it mean.
    
-   It means that you added a new file that is still not commited to the main repository and that you can add it.
+   It means that you added a new file that is still not commited to the main repository and that you can add it to be able to commit it later.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
@@ -66,6 +66,8 @@ tasks are comparable.  Here are the tasks:
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   
+   Yes, when I checked status i said "new file" that still has to be commited.
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
