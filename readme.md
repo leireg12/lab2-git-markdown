@@ -25,7 +25,7 @@ tasks are comparable.  Here are the tasks:
    used underneath in a code block.
    
    ```
-   git clone
+   git clone https://github.com/leireg12/lab2-git-markdown.git
    ```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
@@ -61,7 +61,7 @@ tasks are comparable.  Here are the tasks:
   code block).
      
    ```
-   git add
+   git add "books.md"
    ```
 
 7. Was your add successful?  Check status again!  Explain what do you
@@ -72,16 +72,26 @@ tasks are comparable.  Here are the tasks:
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
+  
+   ```
+   git commit -am "books file added"
+   ```
    
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   
+   ```
+   git status
+   ```
+   The message displayed says that the branch is ahead of the main one for 1 commit (the "book.md" file) so it was successfully commited.
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
 11. Go to your github page.  Can you see the books.md file there with
     all the books listed?
-
+   
+   Yes, I can.
 
 ## Folders and relative path
 
