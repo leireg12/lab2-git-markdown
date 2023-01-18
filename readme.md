@@ -24,7 +24,9 @@ tasks are comparable.  Here are the tasks:
    Write the command you
    used underneath in a code block.
    
-   ```git clone```
+   ```
+   git clone
+   ```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -58,7 +60,9 @@ tasks are comparable.  Here are the tasks:
   Show your command (as a
   code block).
      
-   ```git add```
+   ```
+   git add
+   ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
