@@ -24,7 +24,7 @@ tasks are comparable.  Here are the tasks:
    Write the command you
    used underneath in a code block.
    
-   git clone
+  ```git clone```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -39,10 +39,19 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
+   >On branch main
+   >Your branch is up to date with 'origin/main'.
+
+   >Untracked files:
+   >  (use "git add <file>..." to include in what will be committed)
+           books.md
+
+   >nothing added to commit but untracked files present (use "git add" to track)
+
    
    Explain, in plain text, what does it mean.
    
-   This error means you attempted to run a Git command, but weren't inside a Git repository.
+   It means that you added a new file that is still not commited to the main repository and that you can add it.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
